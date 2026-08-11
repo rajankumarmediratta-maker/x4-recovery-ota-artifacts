@@ -1,0 +1,21 @@
+{
+  "buildCommand": "X4_LOCAL_SOURCE_SNAPSHOT_SHA256=454e5dd18ff3671e59ea6d8c656037fbb34d9f3b552dbcb616b8349e3dc9f7f4 pio run -e x4_recovery_hw_rc1",
+  "dirtyPolicy": "immutable-clean-source-required",
+  "firmwarePath": "x4-recovery-hw-rc1-firmware.bin",
+  "firmwareSha256": "bc40e9a70758b70d8f7fa73cac1dd19e964caa7f35e5d90a661baf2c4044e21a",
+  "firmwareSize": 5620176,
+  "manifestPath": "manifest.json",
+  "manifestSha256": "881d0e8ea64fcb8dee5f638164f5f2e259fb66e1485d1109af510000c433919e",
+  "partitionLayout": "x4-dual-ota-v1",
+  "publicationOrder": [
+    "upload immutable versioned firmware",
+    "download and verify firmware size and sha256",
+    "upload immutable versioned manifest",
+    "download and verify manifest sha256 and schema",
+    "atomically replace channel pointer"
+  ],
+  "schema": "crosspoint-private-ota-receipt",
+  "schemaVersion": 1,
+  "sourceCommit": "141d3e784026191b6404281e46445891b973891a",
+  "tests": "255/255 host PASS; source freeze and final preflight PASS with zero blockers"
+}
