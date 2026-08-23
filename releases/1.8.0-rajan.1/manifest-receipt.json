@@ -1,0 +1,21 @@
+{
+  "buildCommand": "SOURCE_DATE_EPOCH=1787508927 pio run -e x4_unified_reader_rc1",
+  "dirtyPolicy": "immutable-clean-source-required",
+  "firmwarePath": "firmware.bin",
+  "firmwareSha256": "89fcc8eaab2ee7cae9d9e2cbfbfbc84930eef3a2e04e5a4fcfd0f2ee2590fde0",
+  "firmwareSize": 5707840,
+  "manifestPath": "manifest.json",
+  "manifestSha256": "b4ffe35c5b5cf2296935bee9169fb8b99ceff3c76fdd0b1ab952206c4bf6aac7",
+  "partitionLayout": "x4-dual-ota-v1",
+  "publicationOrder": [
+    "upload immutable versioned firmware",
+    "download and verify firmware size and sha256",
+    "upload immutable versioned manifest",
+    "download and verify manifest sha256 and schema",
+    "atomically replace channel pointer"
+  ],
+  "schema": "crosspoint-private-ota-receipt",
+  "schemaVersion": 1,
+  "sourceCommit": "fb1b6209e5ba62c7c3e06de1895880bd46b7c05b",
+  "tests": "4/4 focused identity/package PASS; x4_unified_reader_rc1 build PASS"
+}
