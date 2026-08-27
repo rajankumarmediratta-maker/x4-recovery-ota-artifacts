@@ -1,0 +1,21 @@
+{
+  "buildCommand": "X4_LOCAL_SOURCE_SNAPSHOT_SHA256=ed162c7ad773ac34d41806e8fd8700fdedea2d33fec3fe6db31dc0d8eb1c3338 python3.12 -m platformio run -e x4_unified_reader_rc1",
+  "dirtyPolicy": "immutable-clean-source-required",
+  "firmwarePath": "firmware.bin",
+  "firmwareSha256": "0fb73a20b9d7c7fc07685ed463282fba38a4bc3859334d000ed6632672ee4063",
+  "firmwareSize": 5772368,
+  "manifestPath": "manifest.json",
+  "manifestSha256": "38030c6d1953fcb3905c78116858cdabf556ca513ec425017df4d2fa3dfe626a",
+  "partitionLayout": "x4-dual-ota-v1",
+  "publicationOrder": [
+    "upload immutable versioned firmware",
+    "download and verify firmware size and sha256",
+    "upload immutable versioned manifest",
+    "download and verify manifest sha256 and schema",
+    "atomically replace channel pointer"
+  ],
+  "schema": "crosspoint-private-ota-receipt",
+  "schemaVersion": 1,
+  "sourceCommit": "6667219559c3d34c78791c1e0d38c77303c4bfba",
+  "tests": "20/20 focused integration; 2/2 OTA manifest/identity; production build PASS; final firmware preflight PASS"
+}
