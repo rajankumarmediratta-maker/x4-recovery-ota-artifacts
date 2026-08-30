@@ -1,0 +1,18 @@
+{
+  "board": "xteink-x4-original",
+  "channel": "rajan-recovery",
+  "chip": "esp32-c3",
+  "migration": {
+    "id": "none",
+    "required": false
+  },
+  "minimumBootloader": "x4-stock-compatible",
+  "partitionLayout": "x4-dual-ota-v1",
+  "releaseNotes": "Correct Anki cloze emphasis so only the exact active answer is bold; surrounding context remains regular. Retains the compact Show control and official Anki scheduling.",
+  "schema": "crosspoint-private-ota-manifest",
+  "schemaVersion": 1,
+  "sha256": "a256f1fece946a4c9b6b244090df0a5b54cf7568f97a12d8199c5d283d45d967",
+  "size": 5207264,
+  "url": "https://raw.githubusercontent.com/rajankumarmediratta-maker/x4-recovery-ota-artifacts/aa4da51fb3198b336a4ddcf956b14be9373370f9/releases/2.0.0-rajan.8/firmware.bin",
+  "version": "2.0.0-rajan.8"
+}
