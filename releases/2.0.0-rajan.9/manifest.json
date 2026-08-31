@@ -1,0 +1,18 @@
+{
+  "board": "xteink-x4-original",
+  "channel": "rajan-recovery",
+  "chip": "esp32-c3",
+  "migration": {
+    "id": "none",
+    "required": false
+  },
+  "minimumBootloader": "x4-stock-compatible",
+  "partitionLayout": "x4-dual-ota-v1",
+  "releaseNotes": "Final Anki review polish: exact active-cloze emphasis, compact Show control, and removal of desktop-only hidden tag containers from X4 card text.",
+  "schema": "crosspoint-private-ota-manifest",
+  "schemaVersion": 1,
+  "sha256": "6e939fd4b8f99f0caacfbbb5985e5ad5dc9c9638ade65caeaa98d8db799fd9ce",
+  "size": 5207936,
+  "url": "https://raw.githubusercontent.com/rajankumarmediratta-maker/x4-recovery-ota-artifacts/44eb4a7ed84bd449ad639fcec73615e1c9a4321c/releases/2.0.0-rajan.9/firmware.bin",
+  "version": "2.0.0-rajan.9"
+}
